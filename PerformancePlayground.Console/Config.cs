@@ -15,9 +15,10 @@ namespace PerformancePlayground.Console
         public Config()
         {
             AddJob(
-                // Job.ShortRun,
+                Job.ShortRun
                 // Job.MediumRun,
-                Job.LongRun);
+                //Job.LongRun
+                );
             AddLogger(ConsoleLogger.Default);
             AddColumnProvider(DefaultColumnProviders.Instance);
             AddColumn(StatisticColumn.Min, StatisticColumn.Max);

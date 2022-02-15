@@ -4,9 +4,9 @@ using BenchmarkDotNet.Attributes;
 
 namespace PerformancePlayground.Console
 {
-    public class BenchmarkScenario
+    public class AnyVsLengthBenchmark
     {
-        private const int N = 10000;
+        private const int N = 1_000_000;
         private List<string> _list;
         private string[] _array;
 
